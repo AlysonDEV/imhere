@@ -10,6 +10,11 @@ export function Home () {
     console.log("Você clicou no botão de adcionar")
   }
 
+  function handleParticpantRemove(name: string){
+    // console.log("Você clicou no botão de remover " + name)
+    console.log(`Você em remover o participante ${name}`)
+  }
+
 
 
   return (
@@ -30,10 +35,10 @@ export function Home () {
         </TouchableOpacity>
       </View>
 
-      <Participant name="Rodrigo" />
-      <Participant name="Diego" />
-      <Participant name="Vini" />
-      <Participant name="Biro" />
+      <Participant name="Rodrigo" onRemove={()=>handleParticpantRemove("Rodrigo")} />
+      <Participant name="Diego" onRemove={()=>handleParticpantRemove("Rodrigo")}/>
+      <Participant name="Vini" onRemove={()=>handleParticpantRemove("Rodrigo")} />
+      <Participant name="Biro" onRemove={()=>handleParticpantRemove("Rodrigo")}/>
 
       <StatusBar style='light' />
     </View>
