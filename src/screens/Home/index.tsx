@@ -1,6 +1,7 @@
 import { Text, TextInput, TouchableOpacity, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import { styles } from "./styles";
+import { Participant } from "../../components/Paricipant";
 
 export function Home () {
 
@@ -28,6 +29,11 @@ export function Home () {
           </Text>
         </TouchableOpacity>
       </View>
+
+      <Participant />
+      <Participant />
+      <Participant />
+
       <StatusBar style='light' />
     </View>
   )
