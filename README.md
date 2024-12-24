@@ -53,9 +53,9 @@ npx expo start
 
 ### REQUISÍTOS
 
--[x] Nodejs
--[x] IDE ao seu gosto (no meu caso usei o VSCODE)
--[x] Expo Go / Andriod Studeo
+- [x] Nodejs
+- [x] IDE ao seu gosto (no meu caso usei o VSCODE)
+- [x] Expo Go / Andriod Studeo
 
 
 ## Anotações
